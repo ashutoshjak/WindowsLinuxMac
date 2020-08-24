@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
+<!-- ===========================*****************************===================================================================== -->
+<!-- Stylesheet start -->
 <style media="screen">
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@300;400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
@@ -69,6 +71,10 @@
     font-size: 16px;
   }
 
+  .font-size-12 {
+    font-size: 12px;
+  }
+
 
   td {
     width: 33%;
@@ -83,7 +89,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%
+    width: 100%;
+
   }
 
   .text {
@@ -91,10 +98,62 @@
     text-align: center;
   }
 </style>
+<!-- Stylesheet end -->
+<!-- ===========================*****************************===================================================================== -->
+
 
 <body>
 
-  <div class="bg mb-5">
+
+  <nav class="navbar  fixed-top navbar-expand-lg navbar navbar-dark bg-dark ">
+    <a class="navbar-brand" style="font-size:14px" href="#">Ashutosh Acharya</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav nav-fill w-100">
+        <li class="nav-item" style="font-size:14px">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item" style="font-size:14px">
+          <a class="nav-link" href="#about">About O.S</a>
+        </li>
+        <li class="nav-item" style="font-size:14px">
+          <a class="nav-link" href="#security">Security</a>
+        </li>
+        <li class="nav-item" style="font-size:14px">
+          <a class="nav-link" href="#filestructure">File Structure</a>
+        </li>
+        <li class="nav-item" style="font-size:14px">
+          <a class="nav-link" href="#registry">Registry</a>
+        </li>
+        <li class="nav-item" style="font-size:14px">
+          <a class="nav-link" href="#interchangeable">Interchangeable Interface</a>
+        </li>
+
+        <li class="nav-item dropdown" style="font-size:14px">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More Topic
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#command">Command Terminal</a>
+            <a class="dropdown-item" href="#stability">Stability</a>
+            <a class="dropdown-item" href="#hardwaresoftware">Hardware Software</a>
+            <a class="dropdown-item" href="#userinter">User Interface</a>
+            <a class="dropdown-item" href="#price">Price</a>
+            <a class="dropdown-item" href="#flexibility">Flexibility</a>
+
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- Banner start -->
+  <div class="bg mb-5 " id="home">
     <div class="text">
       <br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -102,13 +161,19 @@
     </div>
   </div>
 
+  <!-- Banner End -->
+  <!-- ===========================*****************************===================================================================== -->
 
-  <div class="py-3">
-    <h1 style="text-align:center;" class="font-galada">About O.S</h1>
-  </div>
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- About O.S start -->
 
 
   <div class="jumbotron bg-white">
+    <div class="py-5" id="about">
+      <h1 style="text-align:center;" class="font-galada">About O.S</h1>
+    </div>
+
     <div class="row">
       <div class="col-md-6 col-12">
         <img class="img-fluid" src="https://cnet2.cbsistatic.com/img/dA4SzQUk7rBWYXmV5x5nbuCuQ8Q=/1200x675/2020/01/13/6e566b3e-faef-4ffd-9909-01acca997b6d/windows-10-cropped-for-promo.png" alt="">
@@ -129,7 +194,7 @@
   </div>
 
   <div class="jumbotron ">
-    <div class="row mt-5 pt-3">
+    <div class="row pb-3">
       <div class="col-md-6 col-12">
         <h2 class="pt-5 font-merryweather1">Linux Operating System</h2>
         <p class="py-3">
@@ -139,20 +204,22 @@
         </p>
       </div>
       <div class="col-md-6 col-12">
-        <img class="img-fluid" src="https://lh3.googleusercontent.com/proxy/Q0S_jzFvHW4crrORnp3tZlH99u_kDc197LFIhF4PGSJiSej7rqhYOC9suSzAsl1n_ha7tVXqt57JvfYLjmxcYxMwuqVcvcqmYQfvQvZza1Ula19fwqQ" alt="">
+        <div class="pl-5 ml-5">
+          <img height="auto" width="400px" class="img-fluid" src="https://images.vexels.com/media/users/3/140692/isolated/preview/72d1f12edf758d24f5b6db73bac4f297-linux-logo-by-vexels.png" alt="">
+        </div>
       </div>
     </div>
   </div>
 
 
-    <div class="jumbotron bg-white">
-    <div class="row">
-      <div class="col-md-6 col-12">
+  <div class="jumbotron bg-white">
+    <div class="row" >
+      <div class="col-md-6 col-12 ">
         <img class="img-fluid pt-5" src="https://www.versionmuseum.com/images/operating-systems/classic-mac-os/classic-mac-os-logo-900x330.png" alt="">
       </div>
       <div class="col-md-6 col-12">
         <h2 class="pt-5 font-merryweather1">Mac Operating System</h2>
-        <p class="py-3">
+        <p class="py-3 ">
           <span class="pl-5">M</span>ac OS is the computer operating system for Apple Computer's MacIntosh line of personal computers and workstations. A popular feature of its latest version, Mac OS X , is a desktop interface with some 3-D
           appearance characteristics. OS X has a modular design intended to make it easier to add new features to the operating system in the future. It runs UNIX applications as well as older Mac applications.This operating system from Apple stands
           older than Windows. It was first released in 1984. It began as a graphical user interface right from its inception. In 2005 the design and structure of MAC OS was changed to Intel x86 based architecture.
@@ -162,13 +229,19 @@
 
   </div>
 
-    <div class="jumbotron">
-    <div class="py-5">
+  <!-- About O.S end -->
+  <!-- ===========================*****************************===================================================================== -->
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- Security start -->
+
+  <div class="jumbotron">
+    <div class="py-5" id="security">
       <h1 style="text-align:center;" class="font-galada">Security</h1>
     </div>
 
-    <div class="container px-5 pb-5">
-      <table class="table table-bordered" >
+    <div class="container-fluid px-5 pb-5">
+      <table class="table table-bordered">
         <thead>
           <tr>
             <th scope="col" style="text-align:center;">Category</th>
@@ -193,7 +266,9 @@
               programming interface
 
             </td>
-            <td>@mdo</td>
+            <td>Is based on the Berkeley
+              Software Distribution (BSD) and the Mach microkernel. BSD provides basic file
+              system </td>
           </tr>
           <tr>
             <th scope="row">Network security and protocols</th>
@@ -204,7 +279,7 @@
 
             </td>
             <td>SSL, SSH, LDAP, AD, IPSec</td>
-            <td>@mdo</td>
+            <td> SSL Certificate to SMTP or IMAP Services.</td>
           </tr>
           <tr>
             <th scope="row">Application security</th>
@@ -221,7 +296,7 @@
               Exchange/Outlook, PCKS 11
 
             </td>
-            <td>@mdo</td>
+            <td>XProtect is a built-in layer Mac Anti-Malware protection introduced from Mac OS </td>
           </tr>
           <tr>
             <th scope="row">Assurance
@@ -231,7 +306,8 @@
             <td>Linux has achieved EAL3 and has good flaw
               handling</td>
             <td>Windows has EAL4 and good flaw handling</td>
-            <td>@mdo</td>
+            <td>Apple Mac OS X 10.6 has EAL 3+
+</td>
           </tr>
           <tr>
         </tbody>
@@ -240,14 +316,21 @@
     </div>
 
   </div>
+  <!-- Security End -->
+  <!-- ===========================*****************************===================================================================== -->
 
-     <div class="jumbotron bg-white">
-    <div class="py-5">
+
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- File Structure start -->
+
+  <div class="jumbotron bg-white">
+    <div class="py-5" id="filestructure">
       <h1 class="font-galada" style="text-align:center;">File Structure</h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -281,16 +364,19 @@
 
     </div>
   </div>
+  <!-- File structure end -->
+  <!-- ===========================*****************************===================================================================== -->
 
 
-    <!-- user interface -->
-   <div class="jumbotron">
-    <div class="py-5">
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- Registry Start -->
+  <div class="jumbotron">
+    <div class="py-5" id="registry">
       <h1 style="text-align:center;" class="font-galada">Registry</h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -323,15 +409,20 @@
     </div>
 
   </div>
+  <!-- Registry End -->
 
-    <!-- hardware compatibility -->
-   <div class="jumbotron bg-white">
-    <div class="py-5">
+  <!-- ===========================*****************************===================================================================== -->
+
+  <!-- ===========================*****************************===================================================================== -->
+
+  <!-- Interchangeable Interfaces start -->
+  <div class="jumbotron bg-white">
+    <div class="py-5" id="interchangeable">
       <h1 style="text-align:center;" class="font-galada">Interchangeable Interfaces </h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -360,15 +451,20 @@
 
   </div>
 
-    <!-- command -->
+  <!-- Interchangeable interface end -->
+  <!-- ===========================*****************************===================================================================== -->
 
-   <div class="jumbotron">
-    <div class="py-5 ">
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- command terminal start -->
+
+  <div class="jumbotron">
+    <div class="py-5" id="command">
       <h1 style="text-align:center;" class="font-galada">Command Terminal</h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -401,16 +497,21 @@
 
   </div>
 
-    <!-- stability -->
+  <!-- Command terminal end -->
+  <!-- ===========================*****************************===================================================================== -->
+
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- stability start -->
 
 
   <div class="jumbotron bg-white">
-    <div class="py-5 ">
+    <div class="py-5 " id="stability">
       <h1 style="text-align:center;" class="font-galada">Stability</h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -450,16 +551,18 @@
     </div>
 
   </div>
+  <!-- stability end -->
+  <!-- ===========================*****************************===================================================================== -->
 
-
-<div class="jumbotron">
-    <!-- hardware and software compatibility -->
-    <div class="py-5">
+  <!-- ===========================*****************************===================================================================== -->
+  <div class="jumbotron">
+    <!-- hardware and software compatibility  start-->
+    <div class="py-5" id="hardwaresoftware">
       <h1 style="text-align:center;" class="font-galada">Hardware and Sofware Compatibility</h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -492,59 +595,20 @@
 
     </div>
   </div>
+  <!-- hardware and software compatability end -->
+  <!-- ===========================*****************************===================================================================== -->
 
-<!-- user interface -->
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- user interface start -->
   <div class="jumbotron bg-white">
 
-      <div class="py-5">
-        <h1 style="text-align:center;" class="font-galada">User Interface</h1>
-
-      </div>
-
-      <div class="container px-5 pb-5">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col" style="text-align:center;">Linux</th>
-              <th scope="col" style="text-align:center;">Windows</th>
-              <th scope="col" style="text-align:center;">MacOS</th>
-
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td> <strong>change all</strong>
-                Hardware support is more limited. Some drivers are not available immediately.There are far fewer applications designed specifically for Linux, although some Windows programs can run on Linux.In Linux, the majority of programs, drivers
-                and packages are supplied via fixed repositories.In Linux, programs are always completely removed.
-
-              </td>
-              <td>Windows drivers are available for almost any hardware.Most software released is compatible with Windows. Programs are installed by downloading them from websites or from physical storage media. When
-                programs are uninstalled, some components remain on the system.
-
-              </td>
-              <td>Mac OS offers less of a wider range of applications than Windows. There are not many hardware for Macos or limited number of hardware in comparison to windows. Only hardware developed by apple are compatible and goes to software but
-                the software developed are far more stable and reliable than windows. Limited number of bugs and glitches are there.
-
-
-
-              </td>
-            </tr>
-
-          </tbody>
-        </table>
-
-      </div>
-    </div>
-
-<!-- price -->
-<div class="jumbotron">
-    <!-- hardware and software compatibility -->
-    <div class="py-5">
-      <h1 style="text-align:center;" class="font-galada">Price</h1>
+    <div class="py-5" id="userinter">
+      <h1 style="text-align:center;" class="font-galada">User Interface</h1>
 
     </div>
 
-    <div class="container px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -556,17 +620,72 @@
         </thead>
         <tbody>
           <tr>
-            <td> <strong>change all</strong>
-              Hardware support is more limited. Some drivers are not available immediately.There are far fewer applications designed specifically for Linux, although some Windows programs can run on Linux.In Linux, the majority of programs, drivers
-              and packages are supplied via fixed repositories.In Linux, programs are always completely removed.
+            <td> The user interface, also known as the shell, is either a command-line interface (CLI), a graphical user interface (GUI), or controls attached to the associated hardware, which is common for embedded systems. For desktop systems, the
+              default user interface is usually graphical, although the CLI is commonly available through terminal emulator windows or on a separate virtual console.
+              CLI shells are text-based user interfaces, which use text for both input and output. The dominant shell used in Linux is the Bourne-Again Shell (bash), originally developed for the GNU project. Most low-level Linux components, including
+              various parts of the userland, use the CLI exclusively. The CLI is particularly suited for automation of repetitive or delayed tasks and provides very simple inter-process communication.
+
+
 
             </td>
-            <td>Windows drivers are available for almost any hardware.Most software released is compatible with Windows. Programs are installed by downloading them from websites or from physical storage media. When
-              programs are uninstalled, some components remain on the system.
+            <td>Window interfaces" refers to the commonly used way to organize a computer monitor's screen space for interaction with a human user. Screen space is organized into regions called "windows." Each window utilizes some screen space for
+              computer–human interaction. Typically, a computer system with window interfaces also supports the mouse and the keyboard as interactive devices for user input.There are various styles of organizing the windows on a screen. One approach
+              is to treat the screen as a desktop and the windows as documents on the desktop. The windows may overlap one another so that some windows partially or completely obscure other windows. Only those windows that stay on top are fully
+              visible. Users can use the mouse to drag the windows around on the screen or to bring a certain window to the top.
 
             </td>
-            <td>Mac OS offers less of a wider range of applications than Windows. There are not many hardware for Macos or limited number of hardware in comparison to windows. Only hardware developed by apple are compatible and goes to software but
-              the software developed are far more stable and reliable than windows. Limited number of bugs and glitches are there.
+            <td>Mac uses aqual graphical user interface with water-like elements, in the first major release of Mac OS X. Every window element, text, graphic, or widget is drawn on-screen using spatial anti-aliasing technology. ColorSync, a
+              technology introduced many years before, was improved and built into the core drawing engine, to provide color matching for printing and multimedia professionals. Also, drop shadows were added around windows and isolated text elements
+              to provide a sense of depth. New interface elements were integrated, including sheets (dialog boxes attached to specific windows) and drawers, which would slide out and provide options.
+
+              The use of soft edges, translucent colors, and pinstripes, similar to the hardware design of the first iMacs, brought more texture and color to the user interface when compared to what Mac OS 9 and Mac OS X Server 1.0's
+
+
+
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+  <!-- user interface end -->
+  <!-- ===========================*****************************===================================================================== -->
+
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- price start-->
+  <div class="jumbotron">
+
+    <div class="py-5" id="price">
+      <h1 style="text-align:center;" class="font-galada">Price</h1>
+
+    </div>
+
+    <div class="container-fluid px-5 pb-5">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col" style="text-align:center;">Linux</th>
+            <th scope="col" style="text-align:center;">Windows</th>
+            <th scope="col" style="text-align:center;">MacOS</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Linux for all intents and purposes can be had for no license fee at all (i.e. Debian, Ubuntu, Fedora). Enterprises that require Linux support and vendor accountability will opt for platforms like Red Hat and SUSE. The Red Hat and SUSE
+              license costs are embedded in the subscription services and is free is use .
+
+
+
+            </td>
+            <td>Windows typically comes with new PCs. If you have an old PC, it almost certainly came with Windows. Pretty much the only time you're going to pay to buy Windows is if you're building one of your own. The cost varies with what type of
+              machine you want or you want to build.
+
+            </td>
+            <td>Macs always come with MacOS, so there's no cost there. As comparing to linux and windows Mac are expensive and there are no many customization in Mac as compared to Linux and Windows
 
 
 
@@ -579,52 +698,76 @@
     </div>
   </div>
 
-  <!-- flexibility -->
+  <!-- price end -->
+  <!-- ===========================*****************************===================================================================== -->
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- flexibility start-->
 
   <div class="jumbotron bg-white">
 
-      <div class="py-5">
-        <h1 style="text-align:center;" class="font-galada">Flexibility</h1>
+    <div class="py-5" id="flexibility">
+      <h1 style="text-align:center;" class="font-galada">Flexibility</h1>
 
-      </div>
-
-      <div class="container px-5 pb-5">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col" style="text-align:center;">Linux</th>
-              <th scope="col" style="text-align:center;">Windows</th>
-              <th scope="col" style="text-align:center;">MacOS</th>
-
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td> <strong>change all</strong>
-                Hardware support is more limited. Some drivers are not available immediately.There are far fewer applications designed specifically for Linux, although some Windows programs can run on Linux.In Linux, the majority of programs, drivers
-                and packages are supplied via fixed repositories.In Linux, programs are always completely removed.
-
-              </td>
-              <td>Windows drivers are available for almost any hardware.Most software released is compatible with Windows. Programs are installed by downloading them from websites or from physical storage media. When
-                programs are uninstalled, some components remain on the system.
-
-              </td>
-              <td>Mac OS offers less of a wider range of applications than Windows. There are not many hardware for Macos or limited number of hardware in comparison to windows. Only hardware developed by apple are compatible and goes to software but
-                the software developed are far more stable and reliable than windows. Limited number of bugs and glitches are there.
-
-
-
-              </td>
-            </tr>
-
-          </tbody>
-        </table>
-
-      </div>
     </div>
 
+    <div class="container-fluid px-5 pb-5">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col" style="text-align:center;">Linux</th>
+            <th scope="col" style="text-align:center;">Windows</th>
+            <th scope="col" style="text-align:center;">MacOS</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> Linux is open source due to which it makes developers more easier to enhance the flexibility of this operating system than the other two. Using Linux as a mainframe OS links flexibility to the power of big iron, and can help large
+              companies significantly reduce data center operating costs and complexity.
 
 
+
+            </td>
+            <td>Windows drivers are available for almost any hardware.Most software released is compatible with Windows. Programs are installed by downloading them from websites or from physical storage media which makes windows far more flexible
+              than MacOS.
+
+            </td>
+            <td>MacOs is restricted to hardware only specified by Apple. In fact it’s illegal to install it onto hardware you didn’t buy from Apple.It is not as flexible as windows and linux. Only software developed by apple are compatible to this
+              operating system.
+
+
+
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+  <!-- flexibility end -->
+
+  <!-- ===========================*****************************===================================================================== -->
+
+  <!-- ===========================*****************************===================================================================== -->
+  <!-- footer start -->
+  <footer id="footer fixed-bottom" class=" px-3">
+    <div class="row bg-light">
+      <div class="col-sm-4 my-5 text-center">
+        <h6 class="font-bebas font-size-16 text-black-50">Submitted by: Ashutosh Acharya</h6>
+      </div>
+      <div class="col-sm-4 my-5 text-center">
+        <h6 class="font-bebas font-size-16 text-black-50">Roll No:017-311</h6>
+      </div>
+      <div class="col-sm-4 my-5 text-center">
+        <h6 class="font-bebas font-size-16 text-black-50">Computer-I Group-A</h6>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  <!-- ===========================*****************************===================================================================== -->
 
 
 
@@ -638,6 +781,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
